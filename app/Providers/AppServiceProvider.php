@@ -3,6 +3,7 @@
 namespace De_ik_app_storing\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Schema;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        //fix e-mail lenght error with migrate
+        Schema::defaultStringLength(191);
     }
 
     /**
