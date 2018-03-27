@@ -13,22 +13,12 @@ elixir(function (mix) {
         sass([
             'app.scss',
             'boodstrap.min.css',
-            'custom.css',
-            'style.css',
-            'animate.css',
-            'fontawsome.min.css',
         ], 'public/assets/css/all.css')
         .scripts([
+            'app.js',            
             'jquery-3.3.1.min.js',
-            'boodstrap.min.js',
-            'jquery.metisMenu.js',
-            'inspinia.js',
-            'jquery.slimscroll.min.js'
+            'bootstrap.js',
         ], 'public/assets/js/all.js')
-        .copy(
-            'resources/assets/fonts/',
-            'public/build/assets/webfonts/'
-        )
         .version(['assets/css/all.css', 'assets/js/all.js'])
     ;
 });

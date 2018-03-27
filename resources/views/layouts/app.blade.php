@@ -10,15 +10,11 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <!-- style sheet -->
+    <link rel="stylesheet" href="{{ elixir('assets/css/all.css') }}" type="text/css" media="screen">
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
-
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- js file -->
+    <script type="text/javascript" src="{{ elixir('assets/js/all.js') }}"></script>
 </head>
 <body>
     <div id="app">
