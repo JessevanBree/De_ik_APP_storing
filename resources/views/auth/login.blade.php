@@ -3,10 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
+        <div class="col-md-6">
+            <div class="card"> 
+                <img src="assets/media/VBKlogo.jpg" class="loginLogo offset-md-4" height="150" width="150">
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
