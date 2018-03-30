@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card"> 
-                <img src="assets/media/VBKlogo.jpg" class="loginLogo offset-md-4" height="150" width="150">
+                <img src="assets/media/VBKlogo.png" class="loginLogo offset-3">
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf

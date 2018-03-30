@@ -12,9 +12,11 @@
 
     <!-- style sheet -->
     <link rel="stylesheet" href="{{ elixir('assets/css/all.css') }}" type="text/css" media="screen">
+    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}">
 
     <!-- js file -->
     <script type="text/javascript" src="{{ elixir('assets/js/all.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('assets/js/app.js') }}"></script>
 </head>
 <body>
     <div id="app">
