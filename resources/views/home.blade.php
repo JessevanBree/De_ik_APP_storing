@@ -4,18 +4,30 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Dashboard</div>
+            <div style="color:red;" class="card">
+                <p>
+                    <h3>Veiligheid voor op:</h3>
+                    <ul>
+                        <li>
+                            Denk om de veiligheid van jezelf en de omstanders.
+                        </li>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
-                </div>
+                        <li>                        
+                            Zet het storingsgebied af en neem contact op met afdeling storingen van het PWN via het storingsnummer of het rechtstreekse nummer van Intake.
+                        </li>                        
+                        <li>                        
+                            Storing : Groot direct actie ondernemen via Opdrachtgever en Uitvoerder.
+                        </li>                        
+                        <li>                        
+                            Storing : Klein overleg met Opdrachtgever en Uitvoerder.
+                        </li>                        
+                        <li>                        
+                            Storing : Gecontroleerd niet spoedeisend Inplannen in overleg met Opdrachtgever en uitvoerder.
+                        </li>                        
+                        Indien de media vragenstelt:
+                        Altijd verwijzen naar de Persvoorlichter
+                    </ul>
+                </p>
             </div>
         </div>
     </div>
