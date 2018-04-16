@@ -1,3 +1,6 @@
 $(document).ready(function(){
-//   console.log("")  
+    $("#readCB").click(function() {
+        $("#readButton").attr("disabled", !this.checked);
+    });
 })
+
