@@ -32,6 +32,13 @@
             <div class="col-md-8">
                 <h5 >I heb de hieboven informatie gelezen</h5>
                 <input type="checkbox" name="gereed" id="readCB">
+                {{--  <div class="checkbox">
+                    <label style="font-size: 2em">
+                        <input type="checkbox" name="gereed" id="readCB">
+                        <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+                        Big
+                    </label>
+                </div>  --}}
                 <input class="btn button" type="button" id="readButton" value="volgende" disabled="false" >
             </div>
         </div>
