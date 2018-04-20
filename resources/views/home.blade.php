@@ -30,7 +30,7 @@
                 </p>
             </div>
             <div class="col-md-8">
-                <h5 >I heb de hieboven informatie gelezen</h5>
+                <h5 >Ik heb bovenstaande informatie gelezen</h5>
                 <input type="checkbox" name="gereed" id="readCB">
                 <input class="btn button" type="button" id="readButton" value="volgende" disabled="false" >
             </div>
