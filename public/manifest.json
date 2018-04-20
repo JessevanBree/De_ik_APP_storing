@@ -1,0 +1,21 @@
+{
+    "short_name": "De ik APP storing",
+    "name": "De ik APP storing",
+    "icons": [{
+            "src": "assets/media/VBKlogo_48.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "assets/media/VBKlogo_96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "assets/media/VBKlogo_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "home"
+}

@@ -1,17 +1,17 @@
 .loginLogo {
-	width: 150px;
+    width: 150px;
 }
 
 .navbar-laravel {
-	background-color: #0097ce;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #0097ce;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 .navbar-toggler {
-	background: #fff;
+    background: #fff;
 }
 
 .navbar .navbar-nav .nav-link,
 .navbar .navbar-brand {
-	color: #fff ;
+    color: #fff;
 }

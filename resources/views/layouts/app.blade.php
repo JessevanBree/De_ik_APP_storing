@@ -9,6 +9,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    
+    <!-- json  -->
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
 
     <!-- style sheet -->
     <link rel="stylesheet" href="{{ elixir('assets/css/all.css') }}" type="text/css" media="screen">
