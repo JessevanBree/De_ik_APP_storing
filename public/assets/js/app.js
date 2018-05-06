@@ -2,6 +2,9 @@ $(document).ready(function() {
     $("#readCB").click(function() {
         $("#readButton").attr("disabled", !this.checked);
     });
+    $("#readButton").click(function() {
+        window.location = '/questionform';
+    });
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('/sw.js').then(function(registration) {

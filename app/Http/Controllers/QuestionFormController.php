@@ -4,7 +4,7 @@ namespace De_ik_app_storing\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TestController extends Controller
+class QuestionFormController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -23,6 +23,6 @@ class TestController extends Controller
      */
     public function index()
     {
-        return view('test');
+        return view('questionform');
     }
 }
