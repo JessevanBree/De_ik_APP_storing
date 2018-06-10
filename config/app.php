@@ -159,7 +159,7 @@ return [
         // De_ik_app_storing\Providers\BroadcastServiceProvider::class,
         De_ik_app_storing\Providers\EventServiceProvider::class,
         De_ik_app_storing\Providers\RouteServiceProvider::class,
-        De_ik_app_storing\Providers\QuestionsServiceProvider::class,
+        // De_ik_app_storing\Providers\QuestionsServiceProvider::class,
 
     ],
 

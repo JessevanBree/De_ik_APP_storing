@@ -3,6 +3,9 @@
 namespace De_ik_app_storing\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \Illuminate\Http\Response;
+use App\Questions;
+
 
 class QuestionFormController extends Controller
 {
@@ -23,6 +26,16 @@ class QuestionFormController extends Controller
      */
     public function index()
     {
-        return view('questionform');
+        return view('questionform', [
+            'questions' => self::getQuestions(),
+        ]);
     }
+
+    public function getQuestions()
+    {
+        return response()->json(Questions::get());
+        //$questions = array("question1", "question1");
+        //return $questions;
+    }
+    
 }
