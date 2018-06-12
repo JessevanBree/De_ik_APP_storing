@@ -7,13 +7,16 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Vragen</h5>
-                    <p>
-                    {{ print_r($questions, true) }}
-                        @foreach($questions as $question)
-                            <h3> {{$question}} </h3>
-                         @endforeach
+                        <form method="POST" action="{{ route('register') }}">
+                            {{--{{dump($questions)}}--}}
+                            @foreach($questions as $question)
+                                <h6> {{$question->question}} </h6>
+                            @if($question->boolanswer == true)
+                                {{$question->boolanswer}}
 
-                    </p>
+                            @endif
+                            @endforeach
+                        </form>
                 </div>
             </div>
             {{--  <div class="col-md-8">  --}}

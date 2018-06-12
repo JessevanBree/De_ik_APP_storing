@@ -3,8 +3,7 @@
 namespace De_ik_app_storing\Http\Controllers;
 
 use Illuminate\Http\Request;
-use \Illuminate\Http\Response;
-use App\Questions;
+use De_ik_app_storing\Question;
 
 
 class QuestionFormController extends Controller
@@ -33,9 +32,8 @@ class QuestionFormController extends Controller
 
     public function getQuestions()
     {
-        return response()->json(Questions::get());
-        //$questions = array("question1", "question1");
-        //return $questions;
+        $allQuestions = Question::get();
+        return $allQuestions;
     }
     
 }
